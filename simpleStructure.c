@@ -27,5 +27,10 @@ int main() {
 	for(int i = 0; i < 2; i++)
 		printf("a1.number = %c\n", a1.array[i]);
 
+	//change variable content
+	a1.number = 97;
+	printf("\nChange variable content test\n");
+	printf("al.number = %d", a1.number);
+
 	return 0;
 }
