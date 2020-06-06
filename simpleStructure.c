@@ -2,7 +2,7 @@
 
 //create structure
 
-struct example1 {
+struct simpleStruct {
 	int number;
 	char character;
 	char array[2];
@@ -13,7 +13,7 @@ struct example1 {
 int main() {
 
 	printf("Simple Structure Test\n");
-	struct example1 a1; //must use "struct" keyword in c, however it is not mandatory in c++
+	struct simpleStruct a1; //must use "struct" keyword in c, however it is not mandatory in c++
 	//accessing structure variables
 	//using 'a1', the variable we declared above
 	a1.number = 98;
