@@ -10,8 +10,8 @@ int main() {
 	
 	int i = 0, j = 0;
 
-	printf("%d / %d = %d\n", sizeof(arr), sizeof(arr[0]), sizeof(arr) / sizeof(arr[0]));
-
+	printf("%d / %d = %d\n", sizeof(arr), sizeof(arr[0]), sizeof(arr) / sizeof(arr[0])); // total size of array / size => 8 * 3 / 8
+	// the array points to the first array list aray[0][0]
 	for (i = 0; i < sizeof(arr) / sizeof(arr[0]); i++) {
 		for (j = 0; arr[i][j] != '\0'; j++) {
 			printf("%c",arr[i][j]);
